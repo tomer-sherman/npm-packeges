@@ -1,0 +1,39 @@
+{
+  "name": "simple-url-scraper",
+  "version": "1.0.0",
+  "description": "You give it a url and it scrapes headers, paragraphs, links, and meta data from the page.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npx tsx src/test/test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "scraper",
+    "web-scraper",
+    "cheerio",
+    "html",
+    "metadata"
+  ],
+  "author": "Tomer Sherman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomer-sherman/john-bryce-fullstack-course.git",
+    "directory": "Homework/Lesson 42 6.9.2026/Simple Scraper"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cheerio": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5.7.0"
+  }
+}

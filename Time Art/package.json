@@ -1,0 +1,27 @@
+{
+    "name": "time-asci-art",
+    "version": "1.0.2",
+    "description": "Console printer in colors",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "asci",
+        "art",
+        "printer"
+    ],
+    "author": "Tomer Sherman",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@types/node": "^26.4.1",
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "console-color-logger": "^1.0.1",
+        "figlet": "^1.11.4"
+    },
+    "bin": {
+        "art": "build/index.js"
+    }
+}

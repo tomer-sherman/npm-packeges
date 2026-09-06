@@ -1,0 +1,31 @@
+{
+    "name": "error-color-logger",
+    "version": "1.0.0", 
+    "description": "Color-coded console logging for HTTP errors: a distinct red style per status code, plus a typed ClientError class and StatusCode enum.",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "console",
+        "color",
+        "colors",
+        "print",
+        "printing",
+        "colour",
+        "colours"
+    ],
+    "author": "Tomer Sherman",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "@types/node": "^26.4.1",
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "colors": "^1.4.0"
+    }
+}
+
+ 
