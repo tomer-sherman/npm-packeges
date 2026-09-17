@@ -1,6 +1,6 @@
 {
     "name": "error-color-logger",
-    "version": "1.0.0", 
+    "version": "1.0.0",
     "description": "Color-coded console logging for HTTP errors: a distinct red style per status code, plus a typed ClientError class and StatusCode enum.",
     "main": "build/index.js",
     "types": "build/index.d.ts",
@@ -24,8 +24,7 @@
         "typescript": "^7.0.2"
     },
     "dependencies": {
-        "colors": "^1.4.0"
+        "colors": "^1.4.0",
+        "mongoose": "^9.10.1"
     }
 }
-
- 
